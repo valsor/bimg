@@ -159,9 +159,9 @@ func VipsVectorSetEnabled(enable bool) {
 }
 
 // VipsDebugInfo outputs to stdout libvips collected data. Useful for debugging.
-func VipsDebugInfo() {
-	C.im__print_all()
-}
+//func VipsDebugInfo() {
+//	C.im__print_all()
+//}
 
 // VipsMemory gets memory info stats from libvips (cache size, memory allocs...)
 func VipsMemory() VipsMemoryInfo {
